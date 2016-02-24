@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.StringTokenizer;
 
-import com.agile.api.APIException;
 import com.agile.api.IAgileClass;
 import com.agile.api.IAgileSession;
 import com.agile.api.IAttribute;
@@ -21,7 +20,6 @@ import com.agile.api.TableTypeConstants;
 import com.agile.api.UserConstants;
 import com.agile.px.ActionResult;
 import com.agile.px.EventActionResult;
-import com.agile.px.ICreateEventInfo;
 import com.agile.px.IEventAction;
 import com.agile.px.IEventInfo;
 import com.agile.px.IObjectEventInfo;
