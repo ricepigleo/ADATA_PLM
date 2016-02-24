@@ -39,7 +39,6 @@ public class setApproveEvent_checkPrivileges_LOV2ID implements IEventAction {
 			
 			IAgileClass cls = change.getAgileClass();
 			
-			ArrayList result = new ArrayList();
 			
 			// Check if the class is abstract or concrete
 			if (!cls.isAbstract()) {
